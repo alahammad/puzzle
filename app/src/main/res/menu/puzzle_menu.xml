@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/menu_new_game" android:title="@string/menu_new_game"/>
+        <item android:id="@+id/menu_level" android:title="@string/menu_level">
+        	<menu>
+            	<group android:checkableBehavior="single">
+					<item android:id="@+id/menu_level_easy" android:title="@string/menu_level_easy"/>
+                    <item android:id="@+id/menu_level_medium" android:title="@string/menu_level_medium" android:checked = "true"/>
+                    <item android:id="@+id/menu_level_hard" android:title="@string/menu_level_hard"/>
+                </group>
+            </menu>
+		</item>
+		<item android:id="@+id/menu_change_image" android:title="@string/menu_change_image"/>
+		<item android:id="@+id/menu_about" android:title="@string/menu_about"/>
+</menu>

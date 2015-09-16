@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">flxPuzzle</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_button">Dummy Button</string>
+    
+    <string name="menu_new_game">Start new game</string>
+    <string name="menu_level">Game level</string>
+    <string name="menu_level_easy">Easy</string>
+    <string name="menu_level_medium">Medium</string>
+    <string name="menu_level_hard">Hard</string>
+    <string name="menu_change_image">Select another image</string>
+    <string name="menu_about">About</string>
+    
+    <string name="congratulations">Congratulations. Well done.</string>
+    <string name="about_text">flxPuzzle is open source puzzle made by Vladimir Iszer (www.flexoft.sk).\r\nYou can use or modify the code as you wish as long as you remove reference to flexoft after applying changes.</string>
+    <string name="select_image">Select an image</string>
+    <string name="err_invalid_image">The picture could\'nt be loaded.</string>
+    <string name="err_no_fm">Please install a File Manager.</string>
+
+</resources>
